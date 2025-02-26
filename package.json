@@ -32,5 +32,22 @@
     "peerDependencies": {
         "form-data": "4.0.1",
         "whatwg-url": "7.1.0"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "MINA_PRIVATE_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "your_private_key",
+                "optional": false
+            },
+            "MINA_NETWORK": {
+                "type": "string",
+                "minLength": 1,
+                "description": "mainnet|devnet",
+                "optional": false
+            }
+        }
     }
 }
